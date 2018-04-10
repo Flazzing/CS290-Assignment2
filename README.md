@@ -2,7 +2,7 @@
 
 **Assignment and Code Blog Entry due at 11:59pm on Monday 4/23/2018**
 
-**Demo due by 11:59pm on Monday 5/7/2017**
+**Demo due by 11:59pm on Monday 5/7/2018**
 
 The goals of this assignment are to exercise your CSS skills and to give you practice at making a coded page match a set of provided mocks, which is a common task for a web developer.
 
