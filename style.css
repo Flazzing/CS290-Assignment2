@@ -1,3 +1,205 @@
 /*
  * Add your CSS styles to this file.
  */
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+}
+
+header{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site-title{
+    margin: 0px;
+    background-color:#309DF7;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white; 
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.navlist{
+    margin: 0px;
+}
+
+.navitem {
+    width: auto;
+    height: auto;
+    margin-left: 10px;  
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+
+.navlink{
+    width: auto;
+    height: auto;
+    float: left;
+    list-style-type: none;
+}
+
+.active{
+    border-bottom: 3px solid #50A5E8;
+}
+
+#navbar-search-button{
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 0px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+li.navitem.navlink a{
+    color: black;
+    text-align: left;
+}
+
+li.navitem.navlink a:hover{
+    color:#75A0DA;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 9px 18px;
+    text-decoration: none;
+}
+
+
+.navitem.navbar-search{
+    margin: 0px;
+    margin-right: 40px;
+    float: right;
+    list-style-type: none;
+}
+ 
+
+#navbar-search-input{
+    outline: none;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    width: auto;
+    height: 20px;
+}
+
+#navbar-search-input:focus{
+    outline: none;
+    outline-width: 0px;
+    background-color: white;
+}
+
+#navbar-search-button:hover{
+    color: skyblue;
+}
+
+
+main {
+        background-color: #EEEEEE;    
+}
+
+.twit-container{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 0px;
+    position: relative;
+    overflow: auto;
+}
+
+ .twit{
+    width: auto;
+    height: 65px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #A9A9A9;
+    float: left;
+    display: flex;
+    margin: 3px; /* margin for each tweet boxes*/
+}
+
+.twit-text{
+    margin: 0px;
+    width: 290px;
+    height: auto;
+}
+
+.twit-icon{
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.twit-attribution{
+    margin: 0;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: auto;
+    color: black;
+    height: auto;
+    font-weight: bold;
+}
+
+.twit-attribution a:visited{
+    color: black;
+}
+
+.twit-attribution a:link{
+    color: black;
+}
+
+.twit-attribution a:hover{
+    color: #55A9ED;
+}
+
+
+#create-twit-button:hover{
+    background-color: #3AA7F7;
+    font-size: 24px;
+    color:white;
+    position: fixed;
+    bottom: 10%;
+    text-decoration: none;
+    right: 10%;
+    cursor: pointer;
+
+}
+
+#create-twit-button{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    width: 70px;
+    height: 70px;
+    background: #F9151C;
+    border: 0px solid red;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
+
+
